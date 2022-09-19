@@ -1,0 +1,13 @@
+display "apakah ingin membeli? (Y/N)"
+input beli
+if beli __ "Y" then
+    display "menyimpan ke keranjang"
+else
+    display "mencari barang yang diinginkan"
+
+display "apakah ingin belanja lagi? (Y/N)"
+input belanja
+if belanja __ "Y" then
+    display "input nama barang yang diinginkan"
+else
+    display "mengisi formulir"
